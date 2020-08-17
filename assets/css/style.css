@@ -1,0 +1,22 @@
+body {
+    background-image: url(../images/20160101012133_IMG_5854.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#josh {
+    background-color: turquoise;
+}
+#about {
+Color: rgb(114, 3, 3);
+}
+#dilla {
+    width: 350px;
+    height: 250px;
+    float: left;
+    margin-right: 15px;   
+}
+
+.container {
+    background-color: lightgrey;
+}
