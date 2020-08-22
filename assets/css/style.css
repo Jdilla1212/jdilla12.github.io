@@ -1,22 +1,82 @@
+/* Basic css to get everything looking clean and pretty */
+
 body {
     background-image: url(../images/20160101012133_IMG_5854.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top, center;
 }
 
-#josh {
-    background-color: turquoise;
+#about, #portfolio {
+    Color: rgb(114, 3, 3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#about {
-Color: rgb(114, 3, 3);
+
+#bio {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #dilla {
-    width: 350px;
-    height: 250px;
     float: left;
-    margin-right: 15px;   
+    max-width: 40%;
+    height: auto;
+    padding: 15px; 
+  
+}
+#portfolioimg {
+    float: center;
+    max-width: 85%;
+    height: auto;
+    padding: 15px;
 }
 
 .container {
     background-color: lightgrey;
+    margin-top: 20px;
 }
+
+/* Used media queries to get a very responsive site so it still looks good on small medium and large screens
+@media screen and (max-width: 768px) { */
+
+    body {
+        width: 100%;
+    }
+    
+    .container {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    #about {
+        font-size: 50px;
+    }
+  }
+
+@media screen and (max-width: 320px) {
+
+    body {
+        width: 100%;
+    }
+  
+    .container {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    #about {
+        font-size: 50px;
+  }
+
+@media screen and (max-width: 168px) {
+
+    body {
+        width: 100%;
+    }
+    
+    .container {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    #about {
+        font-size: 50px;
+    }
+  }
